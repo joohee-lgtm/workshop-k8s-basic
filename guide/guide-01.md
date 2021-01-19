@@ -120,7 +120,7 @@ quit
 ```
 
 ```
-docker run -d -p 8000:80 \
+docker run -d -p 8080:80 \
   --network=app-network \
   -e WORDPRESS_DB_HOST=mysql \
   -e WORDPRESS_DB_NAME=wp \
